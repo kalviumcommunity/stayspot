@@ -27,7 +27,7 @@ Follow the `// TODO` comments in the code. Each maps to a task in the assignment
   `priority`, `sizes`).
 - **Task 5** — `next.config.mjs`: add `images.remotePatterns` for `picsum.photos`.
 - **Task 6** — `app/layout.tsx` + `app/globals.css`: load a font with `next/font` and use the logo in `/public`.
-- **Task 7** — add `metadata` (root) and `generateMetadata` (per stay).
+- **Task 7** — add root `metadata` (a `title` and a `description`) in `app/layout.tsx`.
 - **Task 8** — run a **Lighthouse** audit and save a screenshot in `/lighthouse`.
 - **Task 9** — `npm run build` must pass, then **deploy** and paste your link below.
 
