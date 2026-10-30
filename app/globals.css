@@ -1,6 +1,3 @@
-/* TODO (Task 6 — fonts): right now the app uses the system font stack below.
-   Replace it with a next/font font loaded in app/layout.tsx, and wire its CSS
-   variable into this `font-family` so text renders with no layout shift. */
 :root {
   --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
     sans-serif;

@@ -1,12 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 
-// TODO (Task 7 — SEO/metadata): this metadata is too thin. Add a `description` that says
-// what StaySpot is. A Server Component can export metadata — a Client Component cannot,
-// which matters for app/page.tsx (Task 1).
-//
-// TODO (Task 6 — fonts): load a font with next/font/google here (e.g. Inter), expose it
-// as a CSS variable, and apply that variable to <body> so globals.css can use it.
+// A Server Component can export metadata — a Client Component cannot.
 export const metadata: Metadata = {
   title: "StaySpot",
 };

@@ -6,9 +6,9 @@ import { getStay } from "../../../lib/stays";
 //      `await params` before reading `id` (fix the type too: Promise<{ id: string }>).
 //   2. `getStay` returns `undefined` for a bad id (typo / deleted stay). Instead of the
 //      non-null `!` hacks below that crash the page, call `notFound()` from "next/navigation"
-//      so the proper 404 (your app/not-found.tsx, Task 3) renders.
+//      so Next.js shows its 404 page.
 //
-// TODO (Task 4 — images): swap the <img> for next/image. This is the hero image, so give
+// TODO (Task 3 — images): swap the <img> for next/image. This is the hero image, so give
 // it `priority` (it's above the fold) plus width/height.
 
 export default function StayPage({ params }: { params: { id: string } }) {

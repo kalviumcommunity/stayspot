@@ -1,11 +1,11 @@
 import Link from "next/link";
 import type { Stay } from "../lib/stays";
 
-// TODO (Task 4 — images): replace the plain <img> below with next/image (<Image />).
+// TODO (Task 3 — images): replace the plain <img> below with next/image (<Image />).
 //   - give it width & height (or `fill` + a sized parent) so the card doesn't jump
 //     while the photo loads (Cumulative Layout Shift),
 //   - add a `sizes` hint since the card width changes with the grid,
-//   - remote images need the host allowed in next.config.mjs (Task 5).
+//   - remote images need the host allowed in next.config.mjs (Task 4).
 // Do NOT keep this as a raw <img> — that skips Next's image optimisation entirely.
 export default function StayCard({ stay }: { stay: Stay }) {
   return (

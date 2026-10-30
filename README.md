@@ -20,34 +20,24 @@ npm run build      # production build — must finish with 0 errors
 Follow the `// TODO` comments in the code. Each maps to a task in the assignment brief:
 
 - **Task 1** — `app/page.tsx`: split Server vs Client Components (extract the search into its own
-  `"use client"` component; make the page a Server Component).
+  `"use client"` component `components/SearchBar.tsx`; make the page a Server Component).
 - **Task 2** — `app/stay/[id]/page.tsx`: `await` the `params` Promise and call `notFound()` for a bad id.
-- **Task 3** — add `app/loading.tsx`, `app/not-found.tsx`, and `app/error.tsx` (`"use client"`).
-- **Task 4** — `components/StayCard.tsx` and the detail page: use `next/image` (dimensions,
-  `priority`, `sizes`).
-- **Task 5** — `next.config.mjs`: add `images.remotePatterns` for `picsum.photos`.
-- **Task 6** — `app/layout.tsx` + `app/globals.css`: load a font with `next/font` and use the logo in `/public`.
-- **Task 7** — add root `metadata` (a `title` and a `description`) in `app/layout.tsx`.
-- **Task 8** — run a **Lighthouse** audit and save a screenshot in `/lighthouse`.
-- **Task 9** — `npm run build` must pass, then **deploy** and paste your link below.
+- **Task 3** — `components/StayCard.tsx` and the detail page: use `next/image` (dimensions, `sizes`
+  on cards, `priority` on the hero).
+- **Task 4** — `next.config.mjs`: add `images.remotePatterns` for `picsum.photos`.
+- **Task 5** — `npm run build` must pass, then **deploy** and paste your link below.
 
 ## My deployed link
 
-<!-- Task 9: paste your live URL here before you zip and submit -->
+<!-- Task 5: paste your live URL here before you zip and submit -->
 **Live URL:** _add your deployed link here_
 
 ## Files you will touch / create
 
 ```
-app/layout.tsx            (edit)
 app/page.tsx              (edit)
+components/SearchBar.tsx  (create)
 app/stay/[id]/page.tsx    (edit)
-app/loading.tsx           (create)
-app/not-found.tsx         (create)
-app/error.tsx             (create)
-components/StayCard.tsx    (edit)
-components/SearchBar.tsx   (create)
+components/StayCard.tsx   (edit)
 next.config.mjs           (edit)
-app/globals.css           (edit)
-lighthouse/report.png     (create — your audit screenshot)
 ```
